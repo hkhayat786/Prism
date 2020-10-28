@@ -1,0 +1,322 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+}
+.clearfix::after{
+    content: "";
+    display:block;
+    clear:both;
+}
+/* header area starts here*/
+.banner{
+    width: 100%;
+    height: 70%;
+    background-image: linear-gradient(to right,#514874 ,#793f78);
+    padding: 200px 0;
+    color:white;
+}
+.middle{
+    width: 80%;
+    margin: 0 auto;
+    
+}
+.header{
+    width: 45%;
+    float: left;
+}
+.intro{
+    width: 45%;
+    float: right;
+    padding-left: 30px;
+    border-left: 1px solid gray;
+}
+.header h2{
+    font-size: 36px;
+    font-weight: 500;
+    text-align:left;
+    margin-left: 45px;
+}
+.intro p{
+    color: #b3a3bc;
+    font-size: 16px;
+    font-weight: 500; 
+}
+.intro button{
+    width: 130px;
+    height: 45px;
+    background-color: #00bc8a;
+    border-radius: 10px;
+    border: 0;
+    font-family:'Roboto', sans-serif; 
+    color: #fff;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+/* header area ends here*/
+/* two coloumn area starts here */
+.center{
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.left{
+    width: 45%;
+    float:left;
+    color: #666666;
+}
+.right{
+    width:45%;
+    float: right;
+    padding-left: 30px;
+    border-left: 1px solid rgb(204, 204, 204);
+}
+.left h3{
+    font-size: 24px;
+    font-weight: 700;
+}
+.left p{
+    font-size: 12px;
+    line-height: 25px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.left button{
+    width: 110px;
+    height: 40px;
+    background-color:#fff;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    font-family:'Roboto', sans-serif; 
+    color: #666666;
+    font-weight: 500;
+}
+.right .fa {
+    color: #00bc8a;
+    margin-right: 10px;
+    font-size: 14px;
+}
+.right p{
+    color: #666666;
+    font-size: 14px;
+    margin-top: 0;
+}
+/* two coloumn area ends here */
+/* three image area starts here */
+.full-width{
+    width: 100%;
+    background-color: #f5f5f5;
+    overflow: auto;
+}
+.box{
+    width: 80%;
+    margin: 0 auto;
+    background-color:#ffffff;
+    margin-bottom: 50px;
+    border-bottom: 1px solid #d4d4d4;
+    margin-top: 50px;  
+}
+.box .pic{
+    width: 40%;
+    float: left;
+}
+.pic img {
+    width: 90%;
+}
+.box .ipsum{
+    width: 55%;
+    float: right;
+    padding-top: 60px;
+}
+.ipsum h4{
+    font-size: 19px;
+    font-weight: 700;
+    color: #666666;
+}
+.ipsum p{
+    font-size: 14px;
+    color: #666666;
+    line-height: 25px;
+    margin-top: 20px;
+}
+.ipsum button{
+    width: 110px;
+    height: 40px;
+    background-color:#fff;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    font-family:'Roboto', sans-serif; 
+    color: #666666;
+    font-weight: 500;
+    margin-top: 40px;
+}
+.button-middle{
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.final-button{
+    width: 160px;
+    height: 40px;
+    background-color:#fff;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    font-family:'Roboto', sans-serif; 
+    color: #666666;
+    font-weight: 500;
+    margin-left: 220px;
+    text-align: center;
+}
+
+/* three image area ends here */
+/* form and social media area starts here */
+.orci{
+    width: 45%;
+    float: left;
+}
+
+.social{
+    width: 45%;
+    float: right;
+    border-left: 1px solid lightgray;
+    padding-left: 30px;
+}
+.orci h4{
+    font-size: 28px;
+    color: #666666;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.orci p{
+    font-size: 14px;
+    line-height: 25px;
+    color: #666666;
+    padding: 30px 0;
+}
+form{
+    margin-bottom: 20px;
+}
+form input[type=text] {
+    width: 260px;
+    height: 20px;
+    
+}
+form input[type=message]{
+    width: 400px;
+    height: 150px;
+}
+form input{
+    font-size: 15px;
+    margin: 0;
+}
+.social .fa{
+    color: #00bc8a;
+    padding: 10px;
+}
+.social p{
+    font-size: 15px;
+    color: #666666;
+}
+
+/* form and social media area ends here */
+/* footer area starts here */
+.footer{
+    width: 100%;
+    border-top: 1px solid lightgray;
+    padding: 20px 0;
+}
+.footer-last{
+    width: 50%;
+    margin: 0 auto;
+}
+.footer-last p{
+    color: #666666;
+    font-size: 12px;
+    text-align: center;
+}
+/* footer area ends here */
+
+/*media queries starts here*/
+@media only screen and (max-width:900px){
+   /*header area*/
+   .banner{
+       padding: 100px 0;
+   } 
+   .header{
+        width: 100%;
+        clear: both;
+    }
+    .intro {
+        width: 100%;
+        clear:both;
+        border: 0;
+        padding: 0;
+        text-align: center;
+        line-height: 25px;
+    }
+    .header h2{
+        font-size: 28px;
+        font-weight: 300;
+    }
+    .intro p{
+        font-size: 12px;
+    }
+    .intro button{
+        width: 100px;
+        height: 35px;
+        font-size: 12px;
+    }
+    /*two-coloumn area*/
+    .left{
+        width: 100%;
+        clear: both;
+    }
+    .right{
+        width: 100%;
+        clear: both;
+        margin-top: 40px;
+        border: 0;
+    }
+    /*three-image area*/
+    .box{
+        width: 100%;
+    }
+    .box .pic{
+        width: 100%;
+        clear: both;
+        margin: auto;
+        text-align: center;
+    }
+    .box .ipsum{
+        width: 100%;
+        clear: both;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .pic img{
+        width: 70%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .button-middle {
+       text-align: center;
+    }
+    .button-middle .final-button{
+        margin: 0 auto;
+    }
+    /*form area*/
+    .orci{
+        width: 100%;
+        clear: both;
+    }
+    .social{
+        width: 100%;
+        clear: both;
+        border: 0;
+    }
+    /*footer*/
+    .footer-last p{
+        font-size: 10px;
+    }
+}
